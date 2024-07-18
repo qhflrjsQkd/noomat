@@ -1,0 +1,64 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  margin: 0;
+}
+
+.c1 {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(204, 255, 110);
+  z-index : -2;
+}
+.c2 {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(164, 238, 98);
+  z-index : -2;
+}
+#head {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(74, 138, 255);
+  position: absolute;
+  left: 50%-15px;
+  top: 50%-15px;
+  z-index : 1;
+}
+#tail {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(74, 138, 255);
+  position: absolute;
+  left: 50%-15px;
+  top: 50%-15px;
+  z-index : 1;
+}
+.snake {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(74, 138, 255);
+  position: absolute;
+  left: 50%-15px;
+  top: 50%-15px;
+  z-index : 0;
+}
+.apple {
+  width: 24px;
+  height: 24px;
+  background-color: rgb(255, 6, 6);
+  border-radius: 50%;
+  position: absolute;
+  left: 50%-12px;
+  top: 50%-12px;
+  z-index : 4;
+}
+#score {
+  position: absolute;
+  left: 50%-20px;
+  top: 10px;
+  z-index : 4;
+}
