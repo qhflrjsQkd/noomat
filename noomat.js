@@ -1,7 +1,7 @@
 console.log('start')
 var dir = "0";
 var todir = 'd';
-var ms = 120;
+var ms = 50;
 var start = 1;
 var head = document.getElementById("head");
 var board = new Array(17);
@@ -59,6 +59,8 @@ window.addEventListener("keydown", (e) => {
         case 'ArrowRight':
             if (todir!='a') dir = 'd'
             break;
+        case ' ':
+            if (start != 1) location.reload(true);
     }});
 
 function hgo() {
