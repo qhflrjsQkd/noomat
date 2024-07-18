@@ -1,7 +1,7 @@
 console.log('start')
 var dir = "0";
 var todir = 'd';
-var ms = 50;
+var ms = 120;
 var start = 1;
 var head = document.getElementById("head");
 var board = new Array(17);
